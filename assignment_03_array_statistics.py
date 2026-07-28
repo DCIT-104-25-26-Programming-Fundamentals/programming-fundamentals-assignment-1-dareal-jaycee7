@@ -47,5 +47,20 @@ def calculate_sum(numbers):
 
     return total
 
+def calculate_average(numbers):
+    total = calculate_sum(numbers)
+
+    return total / len(numbers)
+
+
+def calculate_maximum(numbers):
+    maximum = numbers[0]
+
+    for number in numbers:
+        if number > maximum:
+            maximum = number
+
+    return maximum
+
 
 

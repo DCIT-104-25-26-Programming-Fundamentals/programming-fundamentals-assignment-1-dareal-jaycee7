@@ -99,6 +99,19 @@ def main():
 
     numbers = []
 
+    for i in range(n):
+        number = int(input(f"Enter number {i + 1}: "))
+        numbers.append(number)
+
+    print("\nResults:")
+    print(f"Sum:     {calculate_sum(numbers)}")
+    print(f"Average: {calculate_average(numbers)}")
+    print(f"Maximum: {calculate_maximum(numbers)}")
+    print(f"Minimum: {calculate_minimum(numbers)}")
+
+
+main()
+
 
 
 

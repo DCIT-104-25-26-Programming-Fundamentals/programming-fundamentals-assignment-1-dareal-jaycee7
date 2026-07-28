@@ -39,3 +39,13 @@
 # YOUR CODE BELOW — remove the # symbols from the scaffold and fill it in
 # =============================================================================
 
+def calculate_sum(numbers):
+    total = 0
+
+    for number in numbers:
+        total += number
+
+    return total
+
+
+
